@@ -2,7 +2,20 @@ import requests
 import syllapy
 import random
 import re
+#Below this is what the Webhook probably should have looked like
 
+#import json
+
+
+#url = "https://discord.com/api/webhooks/...." 
+#data = {
+    #"username": "Project-1-3-Group-3"
+
+#}
+
+#a = requests.post(url, json=data)
+#print(a)
+#Webhook code end
 # Constants
 NEWS_API_KEY = "cb6c0f61bdfd428bb5bf12ac15a730c9"
 NEWS_API_URL = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWS_API_KEY}"
